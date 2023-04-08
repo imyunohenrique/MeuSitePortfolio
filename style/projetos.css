@@ -78,6 +78,11 @@ body{
 .navbar ul li a{
     text-decoration: none;
 }
+.navbar ul li a:hover{
+        transition: ease 1.0s ease-in-out 0.3s;
+        background-color: #9e9e9e;
+        border-radius: 8px;
+    }
 #meuHome{
     color: #E6E6E6;
 }
